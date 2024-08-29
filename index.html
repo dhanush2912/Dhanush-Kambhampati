@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanush - Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./img/logo.ico" type="img/n-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- #MAIN -->
+
+  <main>
+
+    <!-- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <!-- <figure class="avatar-box">
+          <img src="./img/nolan-avatar.png" alt="Nolan Lwin" width="80">
+        </figure> -->
+
+        <figure class="avatar-box">
+          <img class="nolan-avatar" src="./img/nolan-avatar.gif" alt="Nolan Lwin">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dhanush Kambhampati">Dhanush</h1>
+
+          <p class="title">Undergraduate Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto: dhanushkambhampati2912@gmail.com" class="contact-link">dhanushkambhampati2912@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel: +1 (272) 788-0307" class="contact-link">+91 6303455517</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>NIT Rourkeal, ODISHA, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/dhanush-kambhampati-789a6b268/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.github.com/i-am-nolan25" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/dhanush-kambhampati-789a6b268/" class="social-link" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+
+          </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!-- #main-content -->
+
+    <div class="main-content">
+
+      <!-- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link id="dhanushButton">Dhanush</button>
+          </li>
+          <script>
+            document.getElementById('dhanushButton').addEventListener('click', function() {
+              // Redirect to the home page
+              window.location.href = 'index.html'; // Change 'index.html' to the URL of your home page
+            });
+          </script>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!-- #Nolan -->
+
+      <article class="nolan active" data-page="nolan">
+
+        <header>
+          <h2 class="h2 article-title">I'm Dhanush.</h2>
+        </header>
+
+        <!-- introduction -->
+
+        <section class="nolan-text">
+          <p>
+            Welcome to my portfolio website! My name is Dhanush Kambhampati, and I am thrilled to have you here. Allow me to introduce myself and share a glimpse into my professional journey.
+          </p>
+        
+          <p>
+            I am a passionate software engineer with a strong interest in business analytics, tech consulting, and entrepreneurship. My journey in the world of technology and business has been driven by a desire to create data-driven solutions that make a positive impact. With a solid foundation in software development and a keen eye for business analytics, I am dedicated to bridging the gap between technology and business strategy. Join me as we explore my projects and delve into the exciting intersection of software engineering, business analytics, and entrepreneurship. Let's embark on this journey together!
+          </p>
+        </section>
+
+
+        <!-- service -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
+          <ul class="service-list">
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./img/icon-analytics.png" alt="Business analytics icon" width="40">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Analytics</h4>
+        
+                <p class="service-item-text">
+                  Analyze complex datasets to uncover actionable insights, driving data-informed decision-making and strategic business growth.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="./img/icon-consulting.svg" alt="Tech consulting icon" width="40">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technology Consulting</h4>
+        
+                <p class="service-item-text">
+                  Provide strategic guidance on leveraging technology to enhance business operations, optimize processes, and achieve business objectives.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/6332/6332308.png" alt="Data visualization icon" width="40">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+        
+                <p class="service-item-text">
+                  Create compelling data visualizations that make complex information easily understandable, facilitating better decision-making and stakeholder communication.
+                </p>
+              </div>
+        
+            </li>
+        
+            <li class="service-item">
+        
+              <div class="service-icon-box">
+                <img src="https://t4.ftcdn.net/jpg/08/51/43/31/240_F_851433162_hhUMPoS4ybY9C70TaPBJo1Iik4kq1868.jpg" alt="Strategic planning icon" width="40">
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Strategic Planning</h4>
+        
+                <p class="service-item-text">
+                  Develop and implement strategic plans that align with business goals, ensuring sustainable growth and competitive advantage.
+                </p>
+              </div>
+        
+            </li>
+        
+          </ul>
+        
+        </section>
+
+        <!-- what's next -->
+
+        <section>
+
+          <h3 class="h3 next-title">What's Next?</h3><br>
+          <p class="next-subtitle">Let's work together.</p>
+        
+          <p class="next-text">
+            I am currently seeking internship opportunities for Summer 2025 in the field of Business Analytics. If you are interested in working with me, please feel free to reach out to me via <a class="email-link" href="mailto:dhanush@example.com" target="_blank" style="display: inline">email</a> or <a class="linkedin-link" href="https://www.linkedin.com/in/dhanush-kambhampati-789a6b268/" target="_blank">LinkedIn</a>. You can also drop me a message via the <a class="navbar-link" data-nav-link style="display:inline">Contact</a> page. I look forward to hearing from you!
+          </p>
+        
+        </section>
+
+      </article>
+
+      <!-- #About -->
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">So, who am I?</h2>
+        </header>
+
+        <!-- detailed introduction -->
+        
+        <section class="intro">
+
+          <div class="intro-name">
+            <p class="fullname">
+              Dhanush Kambhampati
+            </p>
+          </div>
+        
+          
+        
+          
+        
+        </section>
+        
+        <!-- Dhanush's photo, introduction, passions, and hobbies -->
+        
+        <section class="photo-and-intro-details">
+        
+          <div class="intro-photo">
+            <img class="nolan-photo" src="./img/dhanush-profile.jpg" alt="Dhanush Kambhampati">
+          </div>
+        
+          <div class="intro-text">
+            <p>
+              Greetings and a warm welcome to my corner of the internet! I am delighted to have you here, and I am thrilled to share a glimpse into my journey and passion with you. 👋
+            </p><br>
+        
+            <p>
+              My name is <span class="nolan-name">Dhanush Kambhampati</span>. I am currently a final-year Biomedical Engineering student at NIT Rourkela. As an aspiring business analyst, I have a strong interest in business analysis, market research, and strategic planning. My academic journey has honed my skills in data analysis, which I am eager to apply in real-world scenarios. 📊
+            </p><br>
+        
+            <p>
+              My interests also include technology consulting and entrepreneurship. The ability to develop innovative solutions and guide businesses toward success is something that excites me. Each project I engage in is an opportunity to contribute to positive change and push the boundaries of what can be achieved through data-driven decision-making.
+            </p><br>
+        
+            <p>
+              During my professional journey, I have built a strong foundation in business analysis, data visualization, and strategic planning. I am committed to combining technical expertise with strategic thinking to make a meaningful impact in the world of business and technology.
+            </p><br>
+        
+            <p>
+              Outside of my academic and professional life, I enjoy exploring new places and cultures. Traveling broadens my perspective and fuels my creativity. When I am not analyzing data or developing strategies, you can find me experimenting with new recipes in the kitchen 🍲, expressing myself through music 🎵, or capturing beautiful moments with my camera 📸.
+            </p><br>
+        
+            <p>
+              I hope this portfolio gives you a deeper insight into my journey and aspirations. Together, let's explore the possibilities that lie ahead in the fields of technology, business, and beyond. Once again, welcome to my portfolio, and I hope you find it both informative and inspiring!
+            </p><br>
+          </div>
+        
+        </section>
+        
+        <header>
+          <h3 class="h3 next-title">Follow Me on Instagram</h3><br>
+        </header>
+        
+        <!-- Instagram profile -->
+        
+        <section class="instagram-profile">
+        
+          <div class="username-and-logo">
+            <img class="nolan-logo" src="./img/dhanush-profile.jpg" alt="Dhanush's Logo">
+        
+            <p class="username">Dhanush Kambhampati</p>
+        
+            <img class="bluemark" src="./img/bluemark.png" alt="bluemark">
+          </div>
+        
+          <a class="follow-button" href="https://www.instagram.com/dhanush_2912?igsh=MTZ2cmp6anM2ZnRqMQ==" alt="Instagram Profile Link" target="_blank"> 
+            <span class="icon"><svg height="33" viewBox="0 0 128 128" width="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse" x1="-566.711" x2="-493.288" y1="516.569" y2="621.43"><stop offset="0" stop-color="#ffb900"></stop><stop offset="1" stop-color="#9100eb"></stop></linearGradient><circle cx="64" cy="64" fill="url(#a)" r="64"></circle><g fill="#fff"><path d="m82.333 104h-36.666c-11.947 0-21.667-9.719-21.667-21.667v-36.666c0-11.948 9.72-21.667 21.667-21.667h36.666c11.948 0 21.667 9.719 21.667 21.667v36.667c0 11.947-9.719 21.666-21.667 21.666zm-36.666-73.333c-8.271 0-15 6.729-15 15v36.667c0 8.271 6.729 15 15 15h36.666c8.271 0 15-6.729 15-15v-36.667c0-8.271-6.729-15-15-15z"></path><path d="m64 84c-11.028 0-20-8.973-20-20 0-11.029 8.972-20 20-20s20 8.971 20 20c0 11.027-8.972 20-20 20zm0-33.333c-7.352 0-13.333 5.981-13.333 13.333 0 7.353 5.981 13.333 13.333 13.333s13.333-5.98 13.333-13.333c0-7.352-5.98-13.333-13.333-13.333z"></path><circle cx="85.25" cy="42.75" r="4.583"></circle></g></svg></span>
+            <span class="text1">Follow me</span>
+            <span class="text2">700 Followers</span> 
+          </a>
+        
+        </section>
+
+        <!-- instagram photos -->
+        <!-- Note: As the Instagram Basic Display API doesn't fully support to fetch, filter, and sort photos from my professional Instagram account (which means it generates unspecified photos that cannot be sorted and filtered), I manually added some photos, linked them with my actual Instagram post, and blended them with some photos that I could fetch from using an API. -->
+
+        <section class="instagram">
+
+          <div class="uploaded-instagram-photos">
+            <a href="https://www.instagram.com/p/C3ZsAPwNTVjOJ_MkeyBd9mQrW8b3hlmg6LLfK40/?igsh=MWhkbGRtaHMxcGxwMQ==" target="_blank">
+              <img src="./img/nolan-1.jpg" alt="Nolan at Grand Canyon, Arizona">
+            </a>
+            <a href="https://www.instagram.com/p/CvAi-byNZx5Zn6CKzhNoq47n37gtG7-EqpsZ0I0/?igsh=MTVjeWVudHFtZ28xdA==" target="_blank">
+              <img src="./img/nolan-2.jpg" alt="Nolan at Universal Studio Japan">
+            </a>
+            <a href="https://www.instagram.com/p/CvK770eP4IQo3OVpUVBs0bMXKzxwp3z_DeUUnM0/?igsh=ZDJ0c3czMGJ5cnp0" target="_blank">
+              <img src="./img/nolan-3.jpg" alt="Nolan at Times Square, New York">
+            </a>
+            
+          </div>
+
+          <!-- <div class="instagram-feed" id="instagram-feed">
+
+          </div> -->
+
+        </section>
+
+      </article>
+
+      
+      <!-- #RESUME -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">NIT Rourkela</h4>
+      
+              <p class="timeline-text">
+                B.Tech., Biomedical Engineering
+              </p>
+      
+              <span>2021 - Present</span>
+      
+              <p class="achievement-list">
+                <ol class="achievement-item">
+                  <li class="scholarships">• CGPA: 6.55/10</li>
+                </ol>
+              </p>
+      
+            </li>
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">Sri Chaitanya Junior College, Guntur</h4>
+      
+              <p class="timeline-text">
+                Intermediate (12th Grade)
+              </p>
+      
+              <span>2019 - 2021</span>
+      
+              <p class="achievement-list">
+                <ol class="achievement-item">
+                  <li class="scholarships">• Percentage: 76.7%</li>
+                </ol>
+              </p>
+      
+            </li>
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">St. Ann’s EM School, Guntur</h4>
+      
+              <p class="timeline-text">
+                High School (10th Grade)
+              </p>
+      
+              <span>May 2019</span>
+      
+              <p class="achievement-list">
+                <ol class="achievement-item">
+                  <li class="scholarships">• CGPA: 9.7/10.0</li>
+                </ol>
+              </p>
+      
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">Business Analyst Intern</h4>
+      
+              <p class="employer">
+                <a href="#" target="_blank" class="employer-name">CUBE Consulting</a>
+              </p>
+      
+              <span>Oct 2023 - Present</span>
+      
+              <p class="timeline-text">
+                <ol class="job-description">
+                  <li>• Analyzed business processes and data to deliver actionable insights that drive strategic decisions.</li>
+                  <li>• Worked closely with stakeholders to identify business needs and develop data-driven strategies.</li>
+                  <li>• Evaluated the effectiveness of implemented solutions to optimize performance.</li>
+                </ol>
+              </p>
+      
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Certifications</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">Certification in International Trade and Business Development</h4>
+      
+              <p class="issuing-organization">
+                <a href="#" target="_blank" class="issuing-organization-name">Certification Provider</a>
+              </p>
+      
+              <p class="issued-date">
+                Issued July 2023
+              </p>
+      
+            </li>
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">Certification in Marketing Analytics</h4>
+      
+              <p class="issuing-organization">
+                <a href="#" target="_blank" class="issuing-organization-name">Certification Provider</a>
+              </p>
+      
+              <p class="issued-date">
+                Issued May 2023
+              </p>
+      
+            </li>
+      
+            <li class="timeline-item">
+      
+              <h4 class="h4 timeline-item-title">DevTown Bootcamp Winner</h4>
+      
+              <p class="issuing-organization">
+                <a href="#" target="_blank" class="issuing-organization-name">DevTown</a>
+              </p>
+      
+              <p class="issued-date">
+                Issued Dec 2022
+              </p>
+      
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="download-button">
+      
+          <div class="download-resume-button">
+            <a href="./documents/Dhanush_Kambhampati_Resume.pdf" alt="Download Dhanush Kambhampati's Resume" download="Dhanush_Kambhampati_Resume.pdf" class="btn btn-download">
+              <div class="download-resume-text">Download My Full Resume as PDF</div>
+            </a>
+          </div>
+      
+          <div class="separator"></div>
+      
+        </section>
+      
+        <section class="skill">
+      
+          <h3 class="h3 skills-title">My Skills</h3>
+      
+          <ul class="skills-list content-card">
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Business Analysis</h5>
+                <data value="85">85%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Market Research</h5>
+                <data value="80">80%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="75">75%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Strategic Planning</h5>
+                <data value="85">85%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="75">75%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+      
+            </li>
+      
+            <li class="skills-item">
+      
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="80">80%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+      
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+
+
+      <!-- #PROJECT -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="Business Analysis">
+              <a href="https://github.com/dhanush2912/Exit-Insights" target="_blank">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="./img/project-1.png" alt="Exit Insights Analysis" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Exit Insights: Analyzing Employee Resignation Trends</h3>
+          
+                <p class="project-category">Business Analysis</p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="Data Analysis">
+              <a href="https://github.com/dhanush2912/GDP-Life-Expectancy" target="_blank">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="./img/project-2.png" alt="GDP and Life Expectancy" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">GDP and Life Expectancy Analysis</h3>
+          
+                <p class="project-category">Data Analysis</p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="Web Development">
+              <a href="https://github.com/dhanush2912">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="./img/project-3.png" alt="Instagram Clone" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Instagram Clone</h3>
+          
+                <p class="project-category">Web Development</p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="Portfolio">
+              <a href="/">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="./img/project-4.png" alt="Personal Portfolio" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Personal Portfolio</h3>
+          
+                <p class="project-category">Portfolio</p>
+          
+              </a>
+            </li>
+          
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!-- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Let's talk.</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d118167.91163761486!2d84.78448540788264!3d22.249667028304096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slocation%20of%20mine!5e0!3m2!1sen!2sin!4v1724952013609!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/moqoqgpv" method="POST">
+  
+            <div class="input-wrapper">
+              <input type="name" id="name" name="fullname" class="form-input" placeholder="Full name" required>
+
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required></textarea>
+            
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!-- custom js link -->
+  <script src="./javascript/script.js"></script>
+  <script src="./javascript/server.js"></script>
+  <script src="./dist/bundle.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
